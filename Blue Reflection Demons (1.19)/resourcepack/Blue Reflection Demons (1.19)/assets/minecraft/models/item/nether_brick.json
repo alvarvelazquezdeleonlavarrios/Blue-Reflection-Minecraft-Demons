@@ -1,0 +1,173 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/nether_brick"
+    },
+
+    "overrides": [
+        { "predicate": {"custom_model_data": 1705001}, "model": "item/calm_erythro/calm_erythro"},
+        { "predicate": {"custom_model_data": 1705002}, "model": "item/calm_erythro/calm_erythro_damage"},
+        { "predicate": {"custom_model_data": 1705003}, "model": "item/rage_erythro/rage_erythro"},
+        { "predicate": {"custom_model_data": 1705004}, "model": "item/rage_erythro/rage_erythro_damage"},
+        { "predicate": {"custom_model_data": 1705005}, "model": "item/joy_erythro/joy_erythro"},
+        { "predicate": {"custom_model_data": 1705006}, "model": "item/joy_erythro/joy_erythro_damage"},
+        { "predicate": {"custom_model_data": 1705007}, "model": "item/despair_erythro/despair_erythro"},
+        { "predicate": {"custom_model_data": 1705008}, "model": "item/despair_erythro/despair_erythro_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705009}, "model": "item/common_leuk/common_leuk"},
+        { "predicate": {"custom_model_data": 1705010}, "model": "item/common_leuk/common_leuk_damage"},
+        { "predicate": {"custom_model_data": 1705011}, "model": "item/colonel_leuk/colonel_leuk"},
+        { "predicate": {"custom_model_data": 1705012}, "model": "item/colonel_leuk/colonel_leuk_damage"},
+        { "predicate": {"custom_model_data": 1705013}, "model": "item/leuk_leader/leuk_leader"},
+        { "predicate": {"custom_model_data": 1705014}, "model": "item/leuk_leader/leuk_leader_damage"},
+        { "predicate": {"custom_model_data": 1705015}, "model": "item/berserk_leuk_knight/berserk_leuk_knight"},
+        { "predicate": {"custom_model_data": 1705016}, "model": "item/berserk_leuk_knight/berserk_leuk_knight_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705017}, "model": "item/acceptor/acceptor"},
+        { "predicate": {"custom_model_data": 1705018}, "model": "item/acceptor/acceptor_damage"},
+        { "predicate": {"custom_model_data": 1705019}, "model": "item/admirator/admirator"},
+        { "predicate": {"custom_model_data": 1705020}, "model": "item/admirator/admirator_damage"},
+        { "predicate": {"custom_model_data": 1705021}, "model": "item/truster/truster"},
+        { "predicate": {"custom_model_data": 1705022}, "model": "item/truster/truster_damage"},
+        { "predicate": {"custom_model_data": 1705023}, "model": "item/envy_fanatic/envy_fanatic"},
+        { "predicate": {"custom_model_data": 1705024}, "model": "item/envy_fanatic/envy_fanatic_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705025}, "model": "item/boredom_skull/boredom_skull"},
+        { "predicate": {"custom_model_data": 1705026}, "model": "item/boredom_skull/boredom_skull_damage"},
+        { "predicate": {"custom_model_data": 1705027}, "model": "item/loathing_skeleton/loathing_skeleton"},
+        { "predicate": {"custom_model_data": 1705028}, "model": "item/loathing_skeleton/loathing_skeleton_damage"},
+        { "predicate": {"custom_model_data": 1705029}, "model": "item/disgust_cranium/disgust_cranium"},
+        { "predicate": {"custom_model_data": 1705030}, "model": "item/disgust_cranium/disgust_cranium_damage"},
+        { "predicate": {"custom_model_data": 1705031}, "model": "item/apathy_bones/apathy_bones"},
+        { "predicate": {"custom_model_data": 1705032}, "model": "item/apathy_bones/apathy_bones_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705033}, "model": "item/anoia_tapir/anoia_tapir"},
+        { "predicate": {"custom_model_data": 1705034}, "model": "item/anoia_tapir/anoia_tapir_damage"},
+        { "predicate": {"custom_model_data": 1705035}, "model": "item/rage_tapiridae/rage_tapiridae"},
+        { "predicate": {"custom_model_data": 1705036}, "model": "item/rage_tapiridae/rage_tapiridae_damage"},
+        { "predicate": {"custom_model_data": 1705037}, "model": "item/anger_tapirus/anger_tapirus"},
+        { "predicate": {"custom_model_data": 1705038}, "model": "item/anger_tapirus/anger_tapirus_damage"},
+        { "predicate": {"custom_model_data": 1705039}, "model": "item/murderous_predator/murderous_predator"},
+        { "predicate": {"custom_model_data": 1705040}, "model": "item/murderous_predator/murderous_predator_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705041}, "model": "item/mud_bear/mud_bear"},
+        { "predicate": {"custom_model_data": 1705042}, "model": "item/mud_bear/mud_bear_damage"},
+        { "predicate": {"custom_model_data": 1705043}, "model": "item/heavy_mud_bear/heavy_mud_bear"},
+        { "predicate": {"custom_model_data": 1705044}, "model": "item/heavy_mud_bear/heavy_mud_bear_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705045}, "model": "item/violetwing_tineresy/violetwing_tineresy"},
+        { "predicate": {"custom_model_data": 1705046}, "model": "item/violetwing_tineresy/violetwing_tineresy_damage"},
+        { "predicate": {"custom_model_data": 1705047}, "model": "item/brightwing_setcasy/brightwing_setcasy"},
+        { "predicate": {"custom_model_data": 1705048}, "model": "item/brightwing_setcasy/brightwing_setcasy_damage"},
+        { "predicate": {"custom_model_data": 1705049}, "model": "item/darkwing_oji/darkwing_oji"},
+        { "predicate": {"custom_model_data": 1705050}, "model": "item/darkwing_oji/darkwing_oji_damage"},
+        { "predicate": {"custom_model_data": 1705051}, "model": "item/corruptwing_redrosid/corruptwing_redrosid"},
+        { "predicate": {"custom_model_data": 1705052}, "model": "item/corruptwing_redrosid/corruptwing_redrosid_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705053}, "model": "item/sculpture_distract/sculpture_distract"},
+        { "predicate": {"custom_model_data": 1705054}, "model": "item/sculpture_distract/sculpture_distract_damage"},
+        { "predicate": {"custom_model_data": 1705055}, "model": "item/crystalline_astonish/crystalline_astonish"},
+        { "predicate": {"custom_model_data": 1705056}, "model": "item/crystalline_astonish/crystalline_astonish_damage"},
+        { "predicate": {"custom_model_data": 1705057}, "model": "item/ironclad_surprise/ironclad_surprise"},
+        { "predicate": {"custom_model_data": 1705058}, "model": "item/ironclad_surprise/ironclad_surprise_damage"},
+        { "predicate": {"custom_model_data": 1705059}, "model": "item/guardian_amazement/guardian_amazement"},
+        { "predicate": {"custom_model_data": 1705060}, "model": "item/guardian_amazement/guardian_amazement_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705061}, "model": "item/cryhorn/cryhorn"},
+        { "predicate": {"custom_model_data": 1705062}, "model": "item/cryhorn/cryhorn_damage"},
+        { "predicate": {"custom_model_data": 1705063}, "model": "item/wailbranch/wailbranch"},
+        { "predicate": {"custom_model_data": 1705064}, "model": "item/wailbranch/wailbranch_damage"},
+        { "predicate": {"custom_model_data": 1705065}, "model": "item/tearbane/tearbane"},
+        { "predicate": {"custom_model_data": 1705066}, "model": "item/tearbane/tearbane_damage"},
+        { "predicate": {"custom_model_data": 1705067}, "model": "item/sobsynapse/sobsynapse"},
+        { "predicate": {"custom_model_data": 1705068}, "model": "item/sobsynapse/sobsynapse_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705069}, "model": "item/assassin_interest/assassin_interest"},
+        { "predicate": {"custom_model_data": 1705070}, "model": "item/assassin_interest/assassin_interest_damage"},
+        { "predicate": {"custom_model_data": 1705071}, "model": "item/slaughterer_vigilance/slaughterer_vigilance"},
+        { "predicate": {"custom_model_data": 1705072}, "model": "item/slaughterer_vigilance/slaughterer_vigilance_damage"},
+        { "predicate": {"custom_model_data": 1705073}, "model": "item/executioner_ex_pect/executioner_ex_pect"},
+        { "predicate": {"custom_model_data": 1705074}, "model": "item/executioner_ex_pect/executioner_ex_pect_damage"},
+        { "predicate": {"custom_model_data": 1705075}, "model": "item/reaper_oppose/reaper_oppose"},
+        { "predicate": {"custom_model_data": 1705076}, "model": "item/reaper_oppose/reaper_oppose_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705077}, "model": "item/armet/armet"},
+        { "predicate": {"custom_model_data": 1705078}, "model": "item/armet/armet_damage"},
+        { "predicate": {"custom_model_data": 1705079}, "model": "item/heavy_armet/heavy_armet"},
+        { "predicate": {"custom_model_data": 1705080}, "model": "item/heavy_armet/heavy_armet_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705081}, "model": "item/circlet/circlet"},
+        { "predicate": {"custom_model_data": 1705082}, "model": "item/circlet/circlet_damage"},
+        { "predicate": {"custom_model_data": 1705083}, "model": "item/heavy_circlet/heavy_circlet"},
+        { "predicate": {"custom_model_data": 1705084}, "model": "item/heavy_circlet/heavy_circlet_damage"},
+
+        
+        { "predicate": {"custom_model_data": 1705085}, "model": "item/daemon_head/daemon_head"},
+        { "predicate": {"custom_model_data": 1705086}, "model": "item/daemon_head/daemon_head_damage"},
+        { "predicate": {"custom_model_data": 1705087}, "model": "item/heavy_daemon_head/heavy_daemon_head"},
+        { "predicate": {"custom_model_data": 1705088}, "model": "item/heavy_daemon_head/heavy_daemon_head_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705089}, "model": "item/armored_specter/armored_specter"},
+        { "predicate": {"custom_model_data": 1705090}, "model": "item/armored_specter/armored_specter_damage"},
+        { "predicate": {"custom_model_data": 1705091}, "model": "item/mountain_bug/mountain_bug"},
+        { "predicate": {"custom_model_data": 1705092}, "model": "item/mountain_bug/mountain_bug_damage"},
+        { "predicate": {"custom_model_data": 1705093}, "model": "item/unicorn/unicorn"},
+        { "predicate": {"custom_model_data": 1705094}, "model": "item/unicorn/unicorn_damage"},
+        { "predicate": {"custom_model_data": 1705095}, "model": "item/jizhuilong/jizhuilong"},
+        { "predicate": {"custom_model_data": 1705096}, "model": "item/jizhuilong/jizhuilong_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705097}, "model": "item/sorrowful_persona/sorrowful_persona"},
+        { "predicate": {"custom_model_data": 1705098}, "model": "item/sorrowful_persona/sorrowful_persona_damage"},
+        { "predicate": {"custom_model_data": 1705099}, "model": "item/hateful_persona/hateful_persona"},
+        { "predicate": {"custom_model_data": 1705100}, "model": "item/hateful_persona/hateful_persona_damage"},
+        { "predicate": {"custom_model_data": 1705101}, "model": "item/false_persona/false_persona"},
+        { "predicate": {"custom_model_data": 1705102}, "model": "item/false_persona/false_persona_damage"},
+        { "predicate": {"custom_model_data": 1705103}, "model": "item/hidden_persona/hidden_persona"},
+        { "predicate": {"custom_model_data": 1705104}, "model": "item/hidden_persona/hidden_persona_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705105}, "model": "item/nose_bug/nose_bug"},
+        { "predicate": {"custom_model_data": 1705106}, "model": "item/nose_bug/nose_bug_damage"},
+        { "predicate": {"custom_model_data": 1705107}, "model": "item/heavy_nose_bug/heavy_nose_bug"},
+        { "predicate": {"custom_model_data": 1705108}, "model": "item/heavy_nose_bug/heavy_nose_bug_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705109}, "model": "item/leporem/leporem"},
+        { "predicate": {"custom_model_data": 1705110}, "model": "item/leporem/leporem_damage"},
+        { "predicate": {"custom_model_data": 1705111}, "model": "item/vanitas/vanitas"},
+        { "predicate": {"custom_model_data": 1705112}, "model": "item/vanitas/vanitas_damage"},
+        { "predicate": {"custom_model_data": 1705113}, "model": "item/amor_falsa/amor_falsa"},
+        { "predicate": {"custom_model_data": 1705114}, "model": "item/amor_falsa/amor_falsa_damage"},
+        { "predicate": {"custom_model_data": 1705115}, "model": "item/lacrima_falsa/lacrima_falsa"},
+        { "predicate": {"custom_model_data": 1705116}, "model": "item/lacrima_falsa/lacrima_falsa_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705117}, "model": "item/anxiety_coffin/anxiety_coffin"},
+        { "predicate": {"custom_model_data": 1705118}, "model": "item/anxiety_coffin/anxiety_coffin_damage"},
+        { "predicate": {"custom_model_data": 1705119}, "model": "item/terror_entombed/terror_entombed"},
+        { "predicate": {"custom_model_data": 1705120}, "model": "item/terror_entombed/terror_entombed_damage"},
+        { "predicate": {"custom_model_data": 1705121}, "model": "item/fear_casket/fear_casket"},
+        { "predicate": {"custom_model_data": 1705122}, "model": "item/fear_casket/fear_casket_damage"},
+        { "predicate": {"custom_model_data": 1705123}, "model": "item/nightmare_graver/nightmare_graver"},
+        { "predicate": {"custom_model_data": 1705124}, "model": "item/nightmare_graver/nightmare_graver_damage"},
+
+
+        { "predicate": {"custom_model_data": 1705125}, "model": "item/bone_stringer/bone_stringer"},
+        { "predicate": {"custom_model_data": 1705126}, "model": "item/bone_stringer/bone_stringer_damage"},
+        { "predicate": {"custom_model_data": 1705127}, "model": "item/petal_hood/petal_hood"},
+        { "predicate": {"custom_model_data": 1705128}, "model": "item/petal_hood/petal_hood_damage"}
+    ]
+}
