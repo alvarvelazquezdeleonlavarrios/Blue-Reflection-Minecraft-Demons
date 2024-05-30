@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/rage_erythro/rage_erythro",
-		"particle": "item/rage_erythro/rage_erythro"
+		"0": "item/rage_erythro/rage_erythro"
 	},
 	"elements": [
 		{
@@ -295,8 +294,8 @@
 	],
 	"display": {
 		"head": {
-			"translation": [0, -28, 0],
-			"scale": [2, 2, 2]
+			"translation": [0, -31.5, 0],
+			"scale": [1.6, 1.6, 1.6]
 		}
 	},
 	"groups": [

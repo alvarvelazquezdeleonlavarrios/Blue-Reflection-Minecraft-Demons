@@ -2,8 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/calm_erythro/calm_erythro_damage",
-		"particle": "item/calm_erythro/calm_erythro_damage"
+		"0": "item/calm_erythro/calm_erythro_damage"
 	},
 	"elements": [
 		{
