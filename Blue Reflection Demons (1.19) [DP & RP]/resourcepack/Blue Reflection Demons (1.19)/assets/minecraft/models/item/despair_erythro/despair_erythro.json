@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/despair_erythro/despair_erythro",
-		"particle": "item/despair_erythro/despair_erythro"
+		"0": "item/despair_erythro/despair_erythro"
 	},
 	"elements": [
 		{
@@ -424,8 +423,8 @@
 	],
 	"display": {
 		"head": {
-			"translation": [0, -28, 0],
-			"scale": [2, 2, 2]
+			"translation": [0, -31.5, 0],
+			"scale": [1.6, 1.6, 1.6]
 		}
 	},
 	"groups": [
@@ -433,15 +432,11 @@
 			"name": "Character",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"nbt": "{}",
-			"armAnimationEnabled": false,
 			"children": [
 				{
 					"name": "Head",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						0,
 						1,
@@ -451,24 +446,18 @@
 							"name": "Cap",
 							"origin": [8, 8, 8],
 							"color": 0,
-							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 						},
 						{
 							"name": "LeftEar",
 							"origin": [8, 8, 8],
 							"color": 0,
-							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [14, 15, 16, 17, 18]
 						},
 						{
 							"name": "RightEar",
 							"origin": [8, 8, 8],
 							"color": 0,
-							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [19, 20, 21, 22, 23]
 						}
 					]
@@ -477,24 +466,18 @@
 					"name": "Body",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [24, 25]
 				},
 				{
 					"name": "LeftArm",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						26,
 						{
 							"name": "LeftForeArm",
 							"origin": [8, 8, 8],
 							"color": 0,
-							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [27]
 						}
 					]
@@ -503,16 +486,12 @@
 					"name": "RightArm",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [
 						28,
 						{
 							"name": "RightForeArm",
 							"origin": [8, 8, 8],
 							"color": 0,
-							"nbt": "{}",
-							"armAnimationEnabled": false,
 							"children": [29]
 						}
 					]
@@ -521,16 +500,12 @@
 					"name": "LeftLeg",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [30]
 				},
 				{
 					"name": "RightLeg",
 					"origin": [8, 8, 8],
 					"color": 0,
-					"nbt": "{}",
-					"armAnimationEnabled": false,
 					"children": [31]
 				}
 			]
