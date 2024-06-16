@@ -6,14 +6,14 @@ scoreboard objectives add _natural_spawning.current_wait_time dummy
 scoreboard objectives add _natural_spawning.demon_type dummy
 
 #------- Creates some constants with fixed values for math operations. -------
-scoreboard objectives add _const.64 dummy
+scoreboard objectives add _const.40 dummy
 
 
 #------- Creates a fake player named "$GameManager" to do the overall automatic updates like the mobs' natural spawning. -------
 scoreboard players set $GameManager _natural_spawning.current_wait_time 20
 
 #------- Creates a fake player named "$Constants" that will contain the value of the constants created previously. -------
-scoreboard players set $Constants _const.64 64
+scoreboard players set $Constants _const.40 40
 
 
 #------- Prints a message in the chat when this Data Pack is reloaded -------
