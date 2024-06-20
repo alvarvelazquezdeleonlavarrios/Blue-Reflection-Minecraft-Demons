@@ -120,7 +120,12 @@
         { "predicate": {"custom_model_data": 2110009}, "model": "item/blue_reflection_tie/daemon_head/daemon_head"},
         { "predicate": {"custom_model_data": 2110010}, "model": "item/blue_reflection_tie/daemon_head/daemon_head_damage"},
         { "predicate": {"custom_model_data": 2110011}, "model": "item/blue_reflection_tie/heavy_daemon_head/heavy_daemon_head"},
-        { "predicate": {"custom_model_data": 2110012}, "model": "item/blue_reflection_tie/heavy_daemon_head/heavy_daemon_head_damage"}
+        { "predicate": {"custom_model_data": 2110012}, "model": "item/blue_reflection_tie/heavy_daemon_head/heavy_daemon_head_damage"},
+
+        { "predicate": {"custom_model_data": 2110013}, "model": "item/blue_reflection_tie/mud_bear/mud_bear"},
+        { "predicate": {"custom_model_data": 2110014}, "model": "item/blue_reflection_tie/mud_bear/mud_bear_damage"},
+        { "predicate": {"custom_model_data": 2110015}, "model": "item/blue_reflection_tie/heavy_mud_bear/heavy_mud_bear"},
+        { "predicate": {"custom_model_data": 2110016}, "model": "item/blue_reflection_tie/heavy_mud_bear/heavy_mud_bear_damage"}
 
     ]
 }
