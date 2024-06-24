@@ -17,7 +17,7 @@ Features:
 
 #### Data Pack (behaviours)
 
-Functions that allows Minecraft: Java Edition render the demons into the game and just make them wander in the world.
+Functions that allows Minecraft: Java Edition render the demons into the game and just make them wander in the world (similar to a "template").
 
 Features:
 - Natural random spawning (replaces all hostile mobs)
@@ -29,7 +29,7 @@ Features:
 
 The demon characters included within the project come from the following game titles:
 
-- [Blue Reflection Demons](/src/BlueReflection.md)
+- [Blue Reflection](/src/BlueReflection.md)
 
 ## Disclaimer
 
