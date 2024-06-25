@@ -137,7 +137,13 @@
         { "predicate": {"custom_model_data": 2110022}, "model": "item/blue_reflection_tie/armored_specter/armored_specter_damage"},
 
         { "predicate": {"custom_model_data": 2110023}, "model": "item/blue_reflection_tie/mountain_bug/mountain_bug"},
-        { "predicate": {"custom_model_data": 2110024}, "model": "item/blue_reflection_tie/mountain_bug/mountain_bug_damage"}
+        { "predicate": {"custom_model_data": 2110024}, "model": "item/blue_reflection_tie/mountain_bug/mountain_bug_damage"},
+
+        { "predicate": {"custom_model_data": 2110025}, "model": "item/blue_reflection_tie/petal_hood/petal_hood"},
+        { "predicate": {"custom_model_data": 2110026}, "model": "item/blue_reflection_tie/petal_hood/petal_hood_damage"},
+
+        { "predicate": {"custom_model_data": 2110027}, "model": "item/blue_reflection_tie/bone_stringer/bone_stringer"},
+        { "predicate": {"custom_model_data": 2110028}, "model": "item/blue_reflection_tie/bone_stringer/bone_stringer_damage"}
 
     ]
 }
