@@ -107,6 +107,7 @@
 
 
 
+
         { "predicate": {"custom_model_data": 2110001}, "model": "item/blue_reflection_tie/armet/armet"},
         { "predicate": {"custom_model_data": 2110002}, "model": "item/blue_reflection_tie/armet/armet_damage"},
         { "predicate": {"custom_model_data": 2110003}, "model": "item/blue_reflection_tie/heavy_armet/heavy_armet"},
@@ -143,7 +144,13 @@
         { "predicate": {"custom_model_data": 2110026}, "model": "item/blue_reflection_tie/petal_hood/petal_hood_damage"},
 
         { "predicate": {"custom_model_data": 2110027}, "model": "item/blue_reflection_tie/bone_stringer/bone_stringer"},
-        { "predicate": {"custom_model_data": 2110028}, "model": "item/blue_reflection_tie/bone_stringer/bone_stringer_damage"}
+        { "predicate": {"custom_model_data": 2110028}, "model": "item/blue_reflection_tie/bone_stringer/bone_stringer_damage"},
+
+        { "predicate": {"custom_model_data": 2110029}, "model": "item/blue_reflection_tie/unicorn/unicorn"},
+        { "predicate": {"custom_model_data": 2110030}, "model": "item/blue_reflection_tie/unicorn/unicorn_damage"},
+
+        { "predicate": {"custom_model_data": 2110031}, "model": "item/blue_reflection_tie/jizhuilong/jizhuilong"},
+        { "predicate": {"custom_model_data": 2110032}, "model": "item/blue_reflection_tie/jizhuilong/jizhuilong_damage"}
 
     ]
 }
