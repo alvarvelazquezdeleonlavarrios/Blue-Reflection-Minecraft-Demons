@@ -150,7 +150,17 @@
         { "predicate": {"custom_model_data": 2110030}, "model": "item/blue_reflection_tie/unicorn/unicorn_damage"},
 
         { "predicate": {"custom_model_data": 2110031}, "model": "item/blue_reflection_tie/jizhuilong/jizhuilong"},
-        { "predicate": {"custom_model_data": 2110032}, "model": "item/blue_reflection_tie/jizhuilong/jizhuilong_damage"}
+        { "predicate": {"custom_model_data": 2110032}, "model": "item/blue_reflection_tie/jizhuilong/jizhuilong_damage"},
+
+
+        { "predicate": {"custom_model_data": 2110033}, "model": "item/blue_reflection_tie/sorrowful_persona/sorrowful_persona"},
+        { "predicate": {"custom_model_data": 2110034}, "model": "item/blue_reflection_tie/sorrowful_persona/sorrowful_persona_damage"},
+        { "predicate": {"custom_model_data": 2110035}, "model": "item/blue_reflection_tie/hateful_persona/hateful_persona"},
+        { "predicate": {"custom_model_data": 2110036}, "model": "item/blue_reflection_tie/hateful_persona/hateful_persona_damage"},
+        { "predicate": {"custom_model_data": 2110037}, "model": "item/blue_reflection_tie/false_persona/false_persona"},
+        { "predicate": {"custom_model_data": 2110038}, "model": "item/blue_reflection_tie/false_persona/false_persona_damage"},
+        { "predicate": {"custom_model_data": 2110039}, "model": "item/blue_reflection_tie/hidden_persona/hidden_persona"},
+        { "predicate": {"custom_model_data": 2110040}, "model": "item/blue_reflection_tie/hidden_persona/hidden_persona_damage"}
 
     ]
 }
