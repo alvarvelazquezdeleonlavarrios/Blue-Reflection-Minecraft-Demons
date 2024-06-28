@@ -160,7 +160,12 @@
         { "predicate": {"custom_model_data": 2110037}, "model": "item/blue_reflection_tie/false_persona/false_persona"},
         { "predicate": {"custom_model_data": 2110038}, "model": "item/blue_reflection_tie/false_persona/false_persona_damage"},
         { "predicate": {"custom_model_data": 2110039}, "model": "item/blue_reflection_tie/hidden_persona/hidden_persona"},
-        { "predicate": {"custom_model_data": 2110040}, "model": "item/blue_reflection_tie/hidden_persona/hidden_persona_damage"}
+        { "predicate": {"custom_model_data": 2110040}, "model": "item/blue_reflection_tie/hidden_persona/hidden_persona_damage"},
+
+        { "predicate": {"custom_model_data": 2110041}, "model": "item/blue_reflection_tie/leporem/leporem"},
+        { "predicate": {"custom_model_data": 2110042}, "model": "item/blue_reflection_tie/leporem/leporem_damage"},
+        { "predicate": {"custom_model_data": 2110043}, "model": "item/blue_reflection_tie/vanitas/vanitas"},
+        { "predicate": {"custom_model_data": 2110044}, "model": "item/blue_reflection_tie/vanitas/vanitas_damage"}
 
     ]
 }
