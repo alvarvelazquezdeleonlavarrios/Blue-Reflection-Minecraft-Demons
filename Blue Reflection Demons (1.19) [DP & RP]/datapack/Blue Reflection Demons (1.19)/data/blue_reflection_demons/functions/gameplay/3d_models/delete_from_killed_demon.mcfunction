@@ -182,3 +182,119 @@ execute if entity @s[tag=fear_casket] unless entity @e[type=zombie, tag=fear_cas
 execute if entity @s[tag=nightmare_graver] unless entity @e[type=zombie, tag=nightmare_graver, limit=1, sort=nearest, distance=..1] run kill @s
 #----------------------------------------------------------------------------
 #**********************************************************************************************************************
+
+
+
+#***************************************** Blue Reflection Tie Demons List *****************************************
+#----------------------------------------------------------------------------
+#------- This 3D model is a Armet -------
+# if (armor_stand.tags.Find("armet") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=armet] unless entity @e[type=zombie, tag=armet, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Heavy Armet -------
+# if (armor_stand.tags.Find("heavy_armet") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=heavy_armet] unless entity @e[type=zombie, tag=heavy_armet, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This 3D model is a Circlet -------
+# if (armor_stand.tags.Find("circlet") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=circlet] unless entity @e[type=zombie, tag=circlet, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Heavy Circlet -------
+# if (armor_stand.tags.Find("heavy_circlet") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=heavy_circlet] unless entity @e[type=zombie, tag=heavy_circlet, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This 3D model is a Daemon Head -------
+# if (armor_stand.tags.Find("daemon_head") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=daemon_head] unless entity @e[type=zombie, tag=daemon_head, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Heavy Daemon Head -------
+# if (armor_stand.tags.Find("heavy_daemon_head") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=heavy_daemon_head] unless entity @e[type=zombie, tag=heavy_daemon_head, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This 3D model is a Mud Bear -------
+# if (armor_stand.tags.Find("mud_bear") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=mud_bear] unless entity @e[type=zombie, tag=mud_bear, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Heavy Mud Bear -------
+# if (armor_stand.tags.Find("heavy_mud_bear") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=heavy_mud_bear] unless entity @e[type=zombie, tag=heavy_mud_bear, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This 3D model is a Nose Bug -------
+# if (armor_stand.tags.Find("nose_bug") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=nose_bug] unless entity @e[type=zombie, tag=nose_bug, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Heavy Nose Bug -------
+# if (armor_stand.tags.Find("heavy_nose_bug") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=heavy_nose_bug] unless entity @e[type=zombie, tag=heavy_nose_bug, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This 3D model is a Armored Specter -------
+# if (armor_stand.tags.Find("armored_specter") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=armored_specter] unless entity @e[type=zombie, tag=armored_specter, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Mountain Bug -------
+# if (armor_stand.tags.Find("mountain_bug") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=mountain_bug] unless entity @e[type=zombie, tag=mountain_bug, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Petal Hood -------
+# if (armor_stand.tags.Find("petal_hood") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=petal_hood] unless entity @e[type=zombie, tag=petal_hood, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Bone Stringer -------
+# if (armor_stand.tags.Find("bone_stringer") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=bone_stringer] unless entity @e[type=zombie, tag=bone_stringer, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Unicorn -------
+# if (armor_stand.tags.Find("unicorn") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=unicorn] unless entity @e[type=zombie, tag=unicorn, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Jizhuilong -------
+# if (armor_stand.tags.Find("jizhuilong") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=jizhuilong] unless entity @e[type=zombie, tag=jizhuilong, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This 3D model is a Sorrowful Persona -------
+# if (armor_stand.tags.Find("sorrowful_persona") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=sorrowful_persona] unless entity @e[type=zombie, tag=sorrowful_persona, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Hateful Persona -------
+# if (armor_stand.tags.Find("hateful_persona") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=hateful_persona] unless entity @e[type=zombie, tag=hateful_persona, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a False Persona -------
+# if (armor_stand.tags.Find("false_persona") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=false_persona] unless entity @e[type=zombie, tag=false_persona, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Hidden Persona -------
+# if (armor_stand.tags.Find("hidden_persona") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=hidden_persona] unless entity @e[type=zombie, tag=hidden_persona, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This 3D model is a Leporem -------
+# if (armor_stand.tags.Find("leporem") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=leporem] unless entity @e[type=zombie, tag=leporem, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Vanitas -------
+# if (armor_stand.tags.Find("vanitas") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=vanitas] unless entity @e[type=zombie, tag=vanitas, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Amor Falsa -------
+# if (armor_stand.tags.Find("amor_falsa") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=amor_falsa] unless entity @e[type=zombie, tag=amor_falsa, limit=1, sort=nearest, distance=..1] run kill @s
+
+#------- This 3D model is a Lacrima Falsa -------
+# if (armor_stand.tags.Find("lacrima_falsa") == true && armor_stand.demon == null):    kill (armor_stand);
+execute if entity @s[tag=lacrima_falsa] unless entity @e[type=zombie, tag=lacrima_falsa, limit=1, sort=nearest, distance=..1] run kill @s
+#----------------------------------------------------------------------------
+#**********************************************************************************************************************

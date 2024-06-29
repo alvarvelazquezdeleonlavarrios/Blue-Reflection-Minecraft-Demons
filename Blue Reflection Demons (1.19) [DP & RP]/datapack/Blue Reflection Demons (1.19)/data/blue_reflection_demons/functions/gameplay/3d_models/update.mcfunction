@@ -182,3 +182,119 @@ execute if entity @s[tag=fear_casket] run function blue_reflection_demons:gamepl
 execute if entity @s[tag=nightmare_graver] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection/nightmare_graver
 #----------------------------------------------------------------------------
 #**********************************************************************************************************************
+
+
+
+#***************************************** Blue Reflection Tie Demons List *****************************************
+#----------------------------------------------------------------------------
+#------- This demon is a Armet -------
+# if (demon.tags.Find("armet") == true):     demon.update3DModel( armor_stand.Find("armet") );
+execute if entity @s[tag=armet] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/armet
+
+#------- This demon is a Heavy Armet -------
+# if (demon.tags.Find("heavy_armet") == true):     demon.update3DModel( armor_stand.Find("heavy_armet") );
+execute if entity @s[tag=heavy_armet] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/heavy_armet
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This demon is a Circlet -------
+# if (demon.tags.Find("circlet") == true):     demon.update3DModel( armor_stand.Find("circlet") );
+execute if entity @s[tag=circlet] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/circlet
+
+#------- This demon is a Heavy Circlet -------
+# if (demon.tags.Find("heavy_circlet") == true):     demon.update3DModel( armor_stand.Find("heavy_circlet") );
+execute if entity @s[tag=heavy_circlet] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/heavy_circlet
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This demon is a Daemon Head -------
+# if (demon.tags.Find("daemon_head") == true):     demon.update3DModel( armor_stand.Find("daemon_head") );
+execute if entity @s[tag=daemon_head] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/daemon_head
+
+#------- This demon is a Heavy Daemon Head -------
+# if (demon.tags.Find("heavy_daemon_head") == true):     demon.update3DModel( armor_stand.Find("heavy_daemon_head") );
+execute if entity @s[tag=heavy_daemon_head] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/heavy_daemon_head
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This demon is a Mud Bear -------
+# if (demon.tags.Find("mud_bear") == true):     demon.update3DModel( armor_stand.Find("mud_bear") );
+execute if entity @s[tag=mud_bear] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/mud_bear
+
+#------- This demon is a Heavy Mud Bear -------
+# if (demon.tags.Find("heavy_mud_bear") == true):     demon.update3DModel( armor_stand.Find("heavy_mud_bear") );
+execute if entity @s[tag=heavy_mud_bear] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/heavy_mud_bear
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This demon is a Nose Bug -------
+# if (demon.tags.Find("nose_bug") == true):     demon.update3DModel( armor_stand.Find("nose_bug") );
+execute if entity @s[tag=nose_bug] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/nose_bug
+
+#------- This demon is a Heavy Nose Bug -------
+# if (demon.tags.Find("heavy_nose_bug") == true):     demon.update3DModel( armor_stand.Find("heavy_nose_bug") );
+execute if entity @s[tag=heavy_nose_bug] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/heavy_nose_bug
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This demon is a Armored Specter -------
+# if (demon.tags.Find("armored_specter") == true):     demon.update3DModel( armor_stand.Find("armored_specter") );
+execute if entity @s[tag=armored_specter] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/armored_specter
+
+#------- This demon is a Mountain Bug -------
+# if (demon.tags.Find("mountain_bug") == true):     demon.update3DModel( armor_stand.Find("mountain_bug") );
+execute if entity @s[tag=mountain_bug] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/mountain_bug
+
+#------- This demon is a Petal Hood -------
+# if (demon.tags.Find("petal_hood") == true):     demon.update3DModel( armor_stand.Find("petal_hood") );
+execute if entity @s[tag=petal_hood] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/petal_hood
+
+#------- This demon is a Bone Stringer -------
+# if (demon.tags.Find("bone_stringer") == true):     demon.update3DModel( armor_stand.Find("bone_stringer") );
+execute if entity @s[tag=bone_stringer] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/bone_stringer
+
+#------- This demon is a Unicorn -------
+# if (demon.tags.Find("unicorn") == true):     demon.update3DModel( armor_stand.Find("unicorn") );
+execute if entity @s[tag=unicorn] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/unicorn
+
+#------- This demon is a Jizhuilong -------
+# if (demon.tags.Find("jizhuilong") == true):     demon.update3DModel( armor_stand.Find("jizhuilong") );
+execute if entity @s[tag=jizhuilong] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/jizhuilong
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This demon is a Sorrowful Persona -------
+# if (demon.tags.Find("sorrowful_persona") == true):     demon.update3DModel( armor_stand.Find("sorrowful_persona") );
+execute if entity @s[tag=sorrowful_persona] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/sorrowful_persona
+
+#------- This demon is a Hateful Persona -------
+# if (demon.tags.Find("hateful_persona") == true):     demon.update3DModel( armor_stand.Find("hateful_persona") );
+execute if entity @s[tag=hateful_persona] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/hateful_persona
+
+#------- This demon is a False Persona -------
+# if (demon.tags.Find("false_persona") == true):     demon.update3DModel( armor_stand.Find("false_persona") );
+execute if entity @s[tag=false_persona] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/false_persona
+
+#------- This demon is a Hidden Persona -------
+# if (demon.tags.Find("hidden_persona") == true):     demon.update3DModel( armor_stand.Find("hidden_persona") );
+execute if entity @s[tag=hidden_persona] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/hidden_persona
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- This demon is a Leporem -------
+# if (demon.tags.Find("leporem") == true):     demon.update3DModel( armor_stand.Find("leporem") );
+execute if entity @s[tag=leporem] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/leporem
+
+#------- This demon is a Vanitas -------
+# if (demon.tags.Find("vanitas") == true):     demon.update3DModel( armor_stand.Find("vanitas") );
+execute if entity @s[tag=vanitas] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/vanitas
+
+#------- This demon is a Amor Falsa -------
+# if (demon.tags.Find("amor_falsa") == true):     demon.update3DModel( armor_stand.Find("amor_falsa") );
+execute if entity @s[tag=amor_falsa] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/amor_falsa
+
+#------- This demon is a Lacrima Falsa -------
+# if (demon.tags.Find("lacrima_falsa") == true):     demon.update3DModel( armor_stand.Find("lacrima_falsa") );
+execute if entity @s[tag=lacrima_falsa] run function blue_reflection_demons:gameplay/3d_models/update_demon/blue_reflection_tie/lacrima_falsa
+#----------------------------------------------------------------------------
+#**********************************************************************************************************************

@@ -7,17 +7,17 @@
 scoreboard players set @s _natural_spawning.demon_type -1
 
 #------- Defines this mob the chance for setting an infernal mob variant or not. -------
-# mob.natural_spawning_demon_type = Random.Range(0,39);
+# mob.natural_spawning_demon_type = Random.Range(0,63);
 summon area_effect_cloud ~ ~ ~ {Tags:["random_uuid","random_demon"]}
 execute store result score @s _natural_spawning.demon_type run data get entity @e[type=area_effect_cloud, tag=random_uuid, tag=random_demon, limit=1] UUID[0] 1
-scoreboard players operation @s _natural_spawning.demon_type %= $Constants _const.40
+scoreboard players operation @s _natural_spawning.demon_type %= $Constants _const.64
 kill @e[type=area_effect_cloud, tag=random_uuid, tag=random_demon, limit=1, sort=nearest]
 #*********************************************************************************************
 
 
 #------- First generates the base 3D model (armor stand) and the base mob (zombie) for the random demon. -------
 # generate_base_entities();
-function blue_reflection_demons:spawning/settings/generate_base_entities
+function blue_reflection_demons:spawning/generate_base_entities
 
 
 #***************************************** Blue Reflection (2017) Demons List *****************************************
@@ -199,6 +199,122 @@ execute if score @s _natural_spawning.demon_type matches 38 run function blue_re
 #------- Spawns a Nightmare Graver -------
 # if (mob.natural_spawning_demon_type == 39):     spawnDemon("nightmare_graver");
 execute if score @s _natural_spawning.demon_type matches 39 run function blue_reflection_demons:spawning/blue_reflection_demons/nightmare_graver
+#----------------------------------------------------------------------------
+#**********************************************************************************************************************
+
+
+
+#***************************************** Blue Reflection Tie Demons List *****************************************
+#----------------------------------------------------------------------------
+#------- Spawns a Armet -------
+# if (mob.natural_spawning_demon_type == 40):     spawnDemon("armet");
+execute if score @s _natural_spawning.demon_type matches 40 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/armet
+
+#------- Spawns a Heavy Armet -------
+# if (mob.natural_spawning_demon_type == 41):     spawnDemon("heavy_armet");
+execute if score @s _natural_spawning.demon_type matches 41 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/heavy_armet
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- Spawns a Circlet -------
+# if (mob.natural_spawning_demon_type == 42):     spawnDemon("circlet");
+execute if score @s _natural_spawning.demon_type matches 42 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/circlet
+
+#------- Spawns a Heavy Circlet -------
+# if (mob.natural_spawning_demon_type == 43):     spawnDemon("heavy_circlet");
+execute if score @s _natural_spawning.demon_type matches 43 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/heavy_circlet
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- Spawns a Daemon Head -------
+# if (mob.natural_spawning_demon_type == 44):     spawnDemon("daemon_head");
+execute if score @s _natural_spawning.demon_type matches 44 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/daemon_head
+
+#------- Spawns a Heavy Daemon Head -------
+# if (mob.natural_spawning_demon_type == 45):     spawnDemon("heavy_daemon_head");
+execute if score @s _natural_spawning.demon_type matches 45 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/heavy_daemon_head
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- Spawns a Mud Bear -------
+# if (mob.natural_spawning_demon_type == 46):     spawnDemon("mud_bear");
+execute if score @s _natural_spawning.demon_type matches 46 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/mud_bear
+
+#------- Spawns a Heavy Mud Bear -------
+# if (mob.natural_spawning_demon_type == 47):     spawnDemon("heavy_mud_bear");
+execute if score @s _natural_spawning.demon_type matches 47 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/heavy_mud_bear
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- Spawns a Nose Bug -------
+# if (mob.natural_spawning_demon_type == 48):     spawnDemon("nose_bug");
+execute if score @s _natural_spawning.demon_type matches 48 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/nose_bug
+
+#------- Spawns a Heavy Nose Bug -------
+# if (mob.natural_spawning_demon_type == 49):     spawnDemon("heavy_nose_bug");
+execute if score @s _natural_spawning.demon_type matches 49 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/heavy_nose_bug
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- Spawns a Armored Specter -------
+# if (mob.natural_spawning_demon_type == 50):     spawnDemon("armored_specter");
+execute if score @s _natural_spawning.demon_type matches 50 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/armored_specter
+
+#------- Spawns a Mountain Bug -------
+# if (mob.natural_spawning_demon_type == 51):     spawnDemon("mountain_bug");
+execute if score @s _natural_spawning.demon_type matches 51 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/mountain_bug
+
+#------- Spawns a Petal Hood -------
+# if (mob.natural_spawning_demon_type == 52):     spawnDemon("petal_hood");
+execute if score @s _natural_spawning.demon_type matches 52 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/petal_hood
+
+#------- Spawns a Bone Stringer -------
+# if (mob.natural_spawning_demon_type == 53):     spawnDemon("bone_stringer");
+execute if score @s _natural_spawning.demon_type matches 53 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/bone_stringer
+
+#------- Spawns a Unicorn -------
+# if (mob.natural_spawning_demon_type == 54):     spawnDemon("unicorn");
+execute if score @s _natural_spawning.demon_type matches 54 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/unicorn
+
+#------- Spawns a Jizhuilong -------
+# if (mob.natural_spawning_demon_type == 55):     spawnDemon("jizhuilong");
+execute if score @s _natural_spawning.demon_type matches 55 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/jizhuilong
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- Spawns a Sorrowful Persona -------
+# if (mob.natural_spawning_demon_type == 56):     spawnDemon("sorrowful_persona");
+execute if score @s _natural_spawning.demon_type matches 56 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/sorrowful_persona
+
+#------- Spawns a Hateful Persona -------
+# if (mob.natural_spawning_demon_type == 57):     spawnDemon("hateful_persona");
+execute if score @s _natural_spawning.demon_type matches 57 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/hateful_persona
+
+#------- Spawns a False Persona -------
+# if (mob.natural_spawning_demon_type == 58):     spawnDemon("false_persona");
+execute if score @s _natural_spawning.demon_type matches 58 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/false_persona
+
+#------- Spawns a Hidden Persona -------
+# if (mob.natural_spawning_demon_type == 59):     spawnDemon("hidden_persona");
+execute if score @s _natural_spawning.demon_type matches 59 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/hidden_persona
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+#------- Spawns a Leporem -------
+# if (mob.natural_spawning_demon_type == 60):     spawnDemon("leporem");
+execute if score @s _natural_spawning.demon_type matches 60 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/leporem
+
+#------- Spawns a Vanitas -------
+# if (mob.natural_spawning_demon_type == 61):     spawnDemon("vanitas");
+execute if score @s _natural_spawning.demon_type matches 61 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/vanitas
+
+#------- Spawns a Amor Falsa -------
+# if (mob.natural_spawning_demon_type == 62):     spawnDemon("amor_falsa");
+execute if score @s _natural_spawning.demon_type matches 62 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/amor_falsa
+
+#------- Spawns a Lacrima Falsa -------
+# if (mob.natural_spawning_demon_type == 63):     spawnDemon("lacrima_falsa");
+execute if score @s _natural_spawning.demon_type matches 63 run function blue_reflection_demons:spawning/blue_reflection_tie_demons/lacrima_falsa
 #----------------------------------------------------------------------------
 #**********************************************************************************************************************
 
