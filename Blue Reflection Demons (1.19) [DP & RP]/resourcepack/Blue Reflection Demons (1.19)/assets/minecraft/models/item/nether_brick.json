@@ -165,7 +165,10 @@
         { "predicate": {"custom_model_data": 2110041}, "model": "item/blue_reflection_tie/leporem/leporem"},
         { "predicate": {"custom_model_data": 2110042}, "model": "item/blue_reflection_tie/leporem/leporem_damage"},
         { "predicate": {"custom_model_data": 2110043}, "model": "item/blue_reflection_tie/vanitas/vanitas"},
-        { "predicate": {"custom_model_data": 2110044}, "model": "item/blue_reflection_tie/vanitas/vanitas_damage"}
-
+        { "predicate": {"custom_model_data": 2110044}, "model": "item/blue_reflection_tie/vanitas/vanitas_damage"},
+        { "predicate": {"custom_model_data": 2110045}, "model": "item/blue_reflection_tie/amor_falsa/amor_falsa"},
+        { "predicate": {"custom_model_data": 2110046}, "model": "item/blue_reflection_tie/amor_falsa/amor_falsa_damage"},
+        { "predicate": {"custom_model_data": 2110047}, "model": "item/blue_reflection_tie/lacrima_falsa/lacrima_falsa"},
+        { "predicate": {"custom_model_data": 2110048}, "model": "item/blue_reflection_tie/lacrima_falsa/lacrima_falsa_damage"}
     ]
 }
