@@ -6,4 +6,4 @@ function blue_reflection_demons:spawning/generate_base_entities
 
 #------- Spawns a specific demon. -------
 # spawnDemon( demon_name );
-function blue_reflection_demons:spawning/blue_reflection_tie_demons/lacrima_falsa
+function blue_reflection_demons:spawning/blue_reflection_demons/calm_erythro

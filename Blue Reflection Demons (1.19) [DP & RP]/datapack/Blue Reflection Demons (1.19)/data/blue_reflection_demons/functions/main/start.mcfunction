@@ -19,7 +19,7 @@ scoreboard players set $Constants _const.64 64
 #------- Prints a message in the chat when this Data Pack is reloaded -------
 tellraw @a {"text": "***************************************************************************","color": "#11276E"}
 tellraw @a {"text": "----------- Blue Reflection Demons Data Pack ----------","color": "#2046C7"}
-tellraw @a {"text": "----------------- For Java Edition 1.19 --------------","color": "#057FD1"}
+tellraw @a {"text": "----------- For Minecraft: Java Edition v.1.19 ----------","color": "#057FD1"}
 tellraw @a {"text": "------------------------- v.1.0 --------------------","color": "#26D4FF"}
 tellraw @a {"text": "--- Developed by: Alvar Velázquez de León Lavarrios ---","color": "#B8B8B8"}
 tellraw @a {"text": "***************************************************************************","color": "#11276E"}

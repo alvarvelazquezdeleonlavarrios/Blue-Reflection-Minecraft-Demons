@@ -12,16 +12,16 @@ scoreboard players remove $GameManager _natural_spawning.current_wait_time 1
 
 
 #********************************* Demons' Physical Attributes *********************************
-#------- Makes the base mob (zombie) always invisible, resistant to the sun light and avoids to transform into a drowned -------
+#------- Makes the base mob always invisible, resistant to the sun light and, if is a zombie, avoids to transform into a drowned -------
 # demon.updatePhysicalStatus();
-execute if entity @e[type=zombie, tag=blue_reflection_demon] as @e[type=zombie, tag=blue_reflection_demon] run data merge entity @s {Fire:-1s, ActiveEffects:[{Id:14, Amplifier:1b, Duration:20, ShowParticles:0b}], InWaterTime:-20}
+execute if entity @e[type=#blue_reflection_demons:hostile_mobs, tag=blue_reflection_demon] as @e[type=#blue_reflection_demons:hostile_mobs, tag=blue_reflection_demon] run data merge entity @s {Fire:-1s, ActiveEffects:[{Id:14, Amplifier:1b, Duration:20, ShowParticles:0b}], InWaterTime:-20}
 #***********************************************************************************************
 
 
 #********************************* Demons' 3D Models *********************************
 #------- Updates the demons 3D model (armor stand) according to the base mob position -------
 # demon.update3DModel();
-execute if entity @e[type=zombie, tag=blue_reflection_demon] as @e[type=zombie, tag=blue_reflection_demon] at @s run function blue_reflection_demons:gameplay/3d_models/update
+execute if entity @e[type=#blue_reflection_demons:hostile_mobs, tag=blue_reflection_demon] as @e[type=#blue_reflection_demons:hostile_mobs, tag=blue_reflection_demon] at @s run function blue_reflection_demons:gameplay/3d_models/update
 
 #------- Deletes the 3D models from killed demons -------
 # if (armor_stand.demon == null):
