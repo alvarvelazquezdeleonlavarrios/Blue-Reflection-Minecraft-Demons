@@ -17,19 +17,20 @@ Features:
 
 #### Data Pack (behaviours)
 
-Functions that allows Minecraft: Java Edition render the demons into the game and just make them wander in the world (similar to a "template").
+Functions that allows Minecraft: Java Edition render the demons into the game and make them wander in the world. Basically, acts like a "template".
 
 Features:
 - Natural random spawning (replaces all hostile mobs)
 - Constant synchronization between the base mob and its armor stand (3D model)
 - Death detection system (clears 3D model rendering)
-- Custom names (always invisible)
+- Demons' custom names (always invisible)
 
 ## Demons List
 
 The demon characters included within the project come from the following game titles:
 
 - [Blue Reflection](/src/BlueReflection.md)
+- [Blue Reflection Tie](/src/BlueReflectionTie.md)
 
 ## Disclaimer
 
