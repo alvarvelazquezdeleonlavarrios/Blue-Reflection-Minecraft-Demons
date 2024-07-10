@@ -51,8 +51,8 @@ The demon characters included within the project come from the following game ti
 Once you downloaded the corresponding ZIP file, then unzip it and you should see the following content:
 
 Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`) [DP & RP]
-	--> **datapack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
-	--> **resourcepack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
+- --> **datapack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
+- --> **resourcepack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
 
 Where the **datapack** subfolder contains the Data Pack you're going to install, and the **resourcepack** subfolder contains the Resource Pack you're going to load.
 
