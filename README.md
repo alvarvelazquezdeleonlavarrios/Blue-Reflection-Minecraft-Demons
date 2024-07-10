@@ -24,7 +24,7 @@ Pack's features:
 Functions that just allow render every demon into the game and make them walk around the world. 
 
 > [!NOTE]
-> Currently, the data pack's purpose is to be used as a **template** for other players or developers to be edited to their needs.
+> The data pack's purpose is to be used as a **template** for other players or developers to be edited to their needs.
 
 Pack's features:
 - Natural random spawning (replaces all hostile ground mobs)
@@ -55,6 +55,9 @@ Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`) [DP & RP]
 - --> **resourcepack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
 
 Where the **datapack** subfolder contains the Data Pack you're going to install, and the **resourcepack** subfolder contains the Resource Pack you're going to load.
+
+> [!WARNING]
+> Both Data and Resource packs are available **only for Minecraft main releases**, since **v.1.14** and above. So if you try to play in minor releases (like 1.19.3, 1.16.2, etc.) they could cause troubles.
 
 ### Loading the Resource Pack
 
