@@ -14,7 +14,7 @@ The content of each pack is written below:
 
 3D models and textures of the main demons of the franchise.
 
-Features:
+Pack's features:
 - 3D Models in JSON files
 - Textures in PNG files
 - Overrides for a default Minecraft item (Nether Brick) to render the custom models
@@ -26,7 +26,7 @@ Functions that just allow render every demon into the game and make them walk ar
 > [!NOTE]
 > Currently, the data pack's purpose is to be used as a **template** for other players or developers to be edited to their needs.
 
-Features:
+Pack's features:
 - Natural random spawning (replaces all hostile ground mobs)
 - Constant synchronization between the base mob (Vindicator) and its armor stand (3D model)
 - Death detection system (clears 3D model rendering)
@@ -50,9 +50,9 @@ The demon characters included within the project come from the following game ti
 
 Once you downloaded the corresponding ZIP file, then unzip it and you should see the following content:
 
-> Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`) [DP & RP]
->		--> **datapack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
->		--> **resourcepack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
+Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`) [DP & RP]
+	--> **datapack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
+	--> **resourcepack**/Blue Reflection Demons (1.`Minecraft Release`) (v.1.`Pack Version`)
 
 Where the **datapack** subfolder contains the Data Pack you're going to install, and the **resourcepack** subfolder contains the Resource Pack you're going to load.
 
