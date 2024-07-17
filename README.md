@@ -48,6 +48,12 @@ For further information about downloading and installing both Data and Resource 
 
 There are also two Offline Manual versions (light and dark) in the **Assets** section of each release.
 
+## External References
+
+You can also find this project in the following websites:
+
+- [Planet Minecraft](https://www.planetminecraft.com/data-pack/blue-reflection-minecraft-demons/)
+
 ## Disclaimer
 
 The Blue Reflection brand belongs to Koei Tecmo Holdings Co., Ltd. and Gust Co. Ltd. All another rights reserved by their respective owners.
